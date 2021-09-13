@@ -1,11 +1,12 @@
 This is a template of [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Dependencies
+## Dependencies & Tools
 
 The template comes with some useful dependencies to get started:
 
 - [Chakra UI](https://chakra-ui.com/), a sensible and easy to use component library
   - The template also comes with a useful custom hook, `useMediaQueryBool`, which uses Chakra UI's `useMediaQuery` hook under the hood with basic React hooks to ensure the media queries are working correctly in a server-side environment
+  - A basic theme file for Chakra UI is already provided
 - [React Icons](https://react-icons.github.io/react-icons/), a npm package that has a ton of popular icons
 - [SWR](https://swr.vercel.app/), a simple and lightweight way of fetching data developed by Vercel, the same team behind NextJS
   - A fetcher function is already pre-defined in the `helpers` folder
