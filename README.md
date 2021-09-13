@@ -1,13 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a template of [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Dependencies
+
+The template comes with some useful dependencies to get started:
+
+- [Chakra UI](https://chakra-ui.com/), a sensible and easy to use component library
+  - The template also comes with a useful custom hook, `useMediaQueryBool`, which uses Chakra UI's `useMediaQuery` hook under the hood with basic React hooks to ensure the media queries are working correctly in a server-side environment
+- [React Icons](https://react-icons.github.io/react-icons/), a npm package that has a ton of popular icons
+- [SWR](https://swr.vercel.app/), a simple and lightweight way of fetching data developed by Vercel, the same team behind NextJS
+  - A fetcher function is already pre-defined in the `helpers` folder
+- [React Hook Form](https://react-hook-form.com/), flexible form building with easy-to-use validation
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+After the dependencies are finished installing, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
