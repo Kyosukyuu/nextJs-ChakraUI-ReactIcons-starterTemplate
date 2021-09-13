@@ -1,6 +1,8 @@
+# NextJS Template
+
 This is a template of [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Dependencies & Tools
+## Dependencies
 
 The template comes with some useful dependencies to get started:
 
@@ -11,6 +13,10 @@ The template comes with some useful dependencies to get started:
 - [SWR](https://swr.vercel.app/), a simple and lightweight way of fetching data developed by Vercel, the same team behind NextJS
   - A fetcher function is already pre-defined in the `helpers` folder
 - [React Hook Form](https://react-hook-form.com/), flexible form building with easy-to-use validation
+
+## Other Features
+
+- The template also comes with a preset and bare-bones custom document file labeled `_document.js`, wherein the html tags are already set to `en` as the `lang` attribute
 
 ## Getting Started
 
