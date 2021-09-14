@@ -8,6 +8,7 @@ export default function PageHead({
   author,
   keywords,
   summary,
+  hasManifest,
 }) {
   return (
     <Head>
@@ -21,7 +22,7 @@ export default function PageHead({
       {/* FAVICON */}
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
       <link rel="apple-touch-icon" href="/favicon.ico" />
-      <link rel="manifest" href="/favicon.ico" />
+      {hasManifest && <link rel="manifest" href="/favicon.ico" />}
       {/* OPEN GRAPH */}
       <meta property="og:type" content="website" />
       <meta name="og:title" property="og:title" content={title} />
