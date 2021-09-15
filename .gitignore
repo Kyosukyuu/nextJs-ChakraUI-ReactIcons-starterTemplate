@@ -35,3 +35,4 @@ yarn-error.log*
 public/workbox-1ffba242.js
 public/sw.js.map
 public/workbox-1ffba242.js.map
+public/sw.js
