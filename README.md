@@ -17,6 +17,7 @@ The template comes with some useful dependencies to get started:
 ## Other Features
 
 - The template also comes with a preset and bare-bones custom document file labeled `_document.js`, wherein the html tags are already set to `en` as the `lang` attribute
+- PWA-ready
 
 ## Getting Started
 
