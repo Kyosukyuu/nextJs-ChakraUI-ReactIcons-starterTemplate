@@ -4,7 +4,7 @@ import PageHead from "../components/PageHead";
 export default function Home() {
   return (
     <Box>
-      <PageHead />
+      <PageHead hasManifest />
 
       <Box as="main"></Box>
     </Box>
